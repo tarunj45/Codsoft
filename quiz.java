@@ -22,7 +22,7 @@ import java.util.*;
        
      public  void startquiz(){
         Scanner  sc  =  new Scanner(System.in);
-        System.out.println("WELCOME TO THE BIGGEST QUIZ IN THE WORLD  ");
+        System.out.println("WELCOME TO THE  QUIZ  ");
      for(int i = 0 ; i< question.length; i++){
         System.out.println("Question  " + ( i +1) + question[i]);
         for(String option  : option[i] ){
